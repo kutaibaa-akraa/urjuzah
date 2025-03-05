@@ -1,6 +1,7 @@
  body {
   text-align: right;
    direction: rtl;
+   font-family: 'Traditional Arabic', serif;
    margin: 0px;
    padding: 0;
    line-height: 1.5em;
@@ -166,3 +167,46 @@ padding:0;
     font-weight: normal;
     padding: 5px;
 }  
+ /* تنسيق عام للصفحة */
+    
+        .poetry-container {
+            font-size: 120%;
+            text-align: center;
+            margin: 10px auto;
+            max-width: 600px;
+        }
+        .poetry-verse {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .poetry-verse div {
+            width: 120%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .poetry-verse .right {
+            text-align: right;
+        }
+        .poetry-verse .left {
+            text-align: left;
+        }
+        .mikimg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+        .content-section {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .content-section h3 {
+            text-align: center;
+            color: #333;
+        }
