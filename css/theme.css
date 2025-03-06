@@ -170,7 +170,7 @@ padding:0;
  /* تنسيق أبيات الشعر*/
     
         .poetry-container {
-            font-size: 120%;
+            font-size: 80%;
             text-align: center;
             margin: 10px auto;
             max-width: 600px;
@@ -181,7 +181,7 @@ padding:0;
             margin-bottom: 10px;
         }
         .poetry-verse div {
-            width: 120%;
+            width: 80%;
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
