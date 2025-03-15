@@ -168,8 +168,10 @@ padding:0;
     font-weight: normal;
     padding: 5px;
 }  
- div.pinch-zoom,div.pinch-zoom img{
-            -webkit-user-drag: none;
+   div.pinch-zoom,
+        div.pinch-zoom img{
+            width: 100%;
+          
         }
  /* تنسيق أبيات الشعر*/
     
