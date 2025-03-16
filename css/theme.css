@@ -63,7 +63,7 @@ h4 {
 }
 .ui-page { -webkit-backface-visibility: hidden; }
 .mikimg {
-  text-align: left;
+  text-align: center;
 }
 
 .mikimg img {
@@ -71,6 +71,7 @@ border: 2px solid #FFF;
 box-shadow: 0 2px 2px #999999;
 max-width: 100% !important;
 height: auto;
+display: block;
 }
 .imp {
   background-color: #CCFF99;
@@ -170,9 +171,10 @@ padding:0;
 }  
    div.pinch-zoom,
         div.pinch-zoom img{
+            max-width: 100%; 
             width: 100%;
-          
-        }
+            display: block;
+                  }
  /* تنسيق أبيات الشعر*/
     
         .poetry-container {
