@@ -22,6 +22,11 @@
                 new RTP.PinchZoom($(this), {});
             });
         })
+		$(document).on("pageshow", "#one", function() {
+    setTimeout(function() {
+        $("img").PinchZoom();
+    }, 10000); // تأخير 1 ثانية قبل التطبيق
+});
     </script>
 </head> 		
 <body> 
